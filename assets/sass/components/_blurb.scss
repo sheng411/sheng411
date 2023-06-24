@@ -1,9 +1,12 @@
 /* Blurb */
 
 	.blurb {
+		margin: 0 0 (_size(element-margin) * 0.5) 0;
+
 		h1{
-			font-size: 30em;
-			margin: 0 0 (_size(element-margin) * 0.75) 0;
+			left: 5em;
+			font-size: 50em;
+			
 		}
 
 		h2 {
@@ -11,10 +14,11 @@
 		}
 
 		h3 {
-			font-size: 2em;
+			font-size: 5em;
 		}
 
 		p {
 			font-size: 1em;
 		}
+		
 	}
